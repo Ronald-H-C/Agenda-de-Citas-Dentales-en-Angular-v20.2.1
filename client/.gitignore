@@ -1,0 +1,72 @@
+# ========================================
+# Node
+# ========================================
+/node_modules
+npm-debug.log*
+yarn-error.log*
+
+# ========================================
+# Builds
+# ========================================
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# ========================================
+# Angular
+# ========================================
+/.angular/cache
+
+# ========================================
+# Logs y temporales
+# ========================================
+*.log
+*.tmp
+*.swp
+/connect.lock
+/libpeerconnection.log
+testem.log
+
+# ========================================
+# Coverage y tipados
+# ========================================
+/coverage
+/typings
+
+# ========================================
+# IDEs y editores
+# ========================================
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# ========================================
+# Archivos del sistema
+# ========================================
+.DS_Store
+Thumbs.db
+.sass-cache/
+
+# ========================================
+# Configuración del entorno (⚠️ sensible)
+# ========================================
+/src/environments/environment*.ts
+
+# ========================================
+# Configuración opcional
+# ========================================
+package-lock.json
+yarn.lock
